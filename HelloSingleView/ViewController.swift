@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func buttonClicked(_ sender: Any) {
+        print("Hello button")
+    }
 }
 
